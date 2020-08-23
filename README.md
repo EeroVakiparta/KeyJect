@@ -13,6 +13,8 @@ Macro keyboard prototype project
 - Gather list of automated tasks for buttons.
 - Design sexy ass case and caps.
 
+![](testBoard.png)
+
 ## Gathered material & Other similar projects:
 
 The arduino Keyboard library:
