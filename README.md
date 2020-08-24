@@ -29,6 +29,7 @@ https://www.youtube.com/watch?v=ORujXGDqG_I
 A good software to pair with (Study anyway)
 https://autohotkey.com/download/
 
+https://www.instructables.com/id/Custom-Macro-Mechanical-Keypad/
 
 https://www.youtube.com/watch?v=L4e8mREQ85s
 https://www.youtube.com/watch?v=MeYuIWGqquE
