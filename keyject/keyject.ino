@@ -10,6 +10,8 @@ char winKey = KEY_LEFT_GUI;
 char enter = KEY_RETURN;
 char F4 = KEY_F4;
 char F13 = KEY_F13;
+char F14 = KEY_F14;
+char F15 = KEY_F15;
 int delayTime = 200;
 int layout = 0;
 
@@ -62,10 +64,28 @@ switch (layout) {
   }
     break;
   case 1:
-    // statements
+      if (digitalRead(buttonAdresses[0]) == 0)  
+  {
+    Keyboard.press(ctrlKey);
+    Keyboard.press('t');
+    Keyboard.releaseAll();
+    delay(delayTime); 
+  }
+    if (digitalRead(buttonAdresses[1]) == 0)  
+  {
+    Keyboard.press(F14);
+    Keyboard.releaseAll();
+    delay(delayTime);
+  }
+    if (digitalRead(buttonAdresses[2]) == 0)  
+  {
+    Keyboard.press(F15);
+    Keyboard.releaseAll();
+    delay(delayTime);
+  }
     break;
   case 2:
-    // statements
+    // add 3rd layout here
     break;
   default:
     layout = 0;
